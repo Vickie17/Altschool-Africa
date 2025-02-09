@@ -1,0 +1,56 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  font-family: "Liter", serif;
+}
+.header {
+  width: 1270px;
+  height: 210px;
+  border-bottom: 8px;
+}
+
+h1 {
+  margin: 1em 17rem;
+}
+.first-paragraph {
+  margin: 1em 17rem;
+  line-height: 20px;
+}
+section {
+  background-color: #666666;
+  height: 300px;
+}
+.container {
+  position: relative;
+}
+.top-div {
+  position: absolute;
+  background-color: #ffbf00;
+  margin: 2.5em 15.5em;
+  width: 300px;
+  border-bottom: ridge 5px #cc9900;
+}
+.bottom-div {
+  position: absolute;
+  width: 600px;
+  height: 250px;
+  background-color: #ffffff;
+  margin: 2rem 16rem;
+}
+.bottom-paragraph1 {
+  margin-top: 4.5em;
+  padding-left: 15px;
+  line-height: 23px;
+}
+.bottom-paragraph2 {
+  margin-top: 1em;
+  padding-left: 15px;
+  line-height: 23px;
+}
+h2 {
+  padding-left: 15px;
+  font-size: larger;
+}

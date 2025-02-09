@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Raleway", serif;
+        background-color: #fffcf8;
+      }
+
+      main {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: justify;
+        margin-top: 3rem;
+      }
+
+      header {
+        margin-top: 1rem;
+      }
+
+      #learn {
+        flex-basis: 50%;
+        text-align: center;
+        margin-top: 5rem;
+      }
+
+      #signup {
+        flex-basis: 50%;
+        background-color: #fff;
+      }
+
+      input,
+      select,
+      label {
+        font-family: "Raleway", serif;
+        margin-top: 1rem;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      li {
+        margin: 0 1rem;
+      }
+
+      p {
+        line-height: 1.5rem;
+        margin: 0.5rem 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .container_signup {
+        margin: 1.4rem;
+      }
+
+      label,
+      input {
+        display: flex;
+        flex-direction: column;
+      }
+
+      input[type="text"],
+      input[type="date"],
+      input[type="email"],
+      input[type="password"],
+      select {
+        padding: 0.5rem 7rem 1rem 0.5rem;
+        border-radius: 0.2rem;
+      }
+
+      form {
+        width: 100%;
+      }
+
+      img {
+        width: 30rem;
+      }
+
+      .form-group {
+        display: flex;
+      }
+
+      .form-control {
+        flex-basis: 50%;
+      }
+
+      .to-top {
+        float: right;
+      }
+      footer {
+        display: flex;
+        text-align: center;
+        padding: 1rem;
+      }
+    </style>
+    
+</head>
+<body>
+    <header class="navbar">
+        <ul class="nav__list">
+          <!-- Nav Items-->
+          <li><a href="index.html" class="nav__link">About Me</a></li>
+          <li><a href="index.html#bio" class="nav__link">Biography</a></li>
+          <li><a href="index.html#reason" class="nav__link">Why</a></li>
+          <li><a href="index.html#goal" class="nav__link">Goals</a></li>
+          <li><a href="form.html" class="nav__link">Register</a></li>
+        </ul>
+      </header> 
+        <main id="main">
+          <section class="basic_info" id="signup">
+            <div class="container_signup">
+              <p>
+                Already An AltScholar? <span><a href="">Sign In</a></span>
+              </p>
+              <div class="title">
+                <h1 style="font-size: 2.5rem">Signup</h1>
+                <p>Take the next steps to apply at AltSchool Africa</p>
+              </div>
+              <div class="container_form">
+                <form action="">
+                  <div class="form-group">
+                    <div class="form-control">
+                      <label for="First Name">First Name</label>
+                      <input type="text" placeholder="First Name" />
+                    </div>
+                    <div class="form-control">
+                      <label for="Last Name">Last Name</label>
+                      <input type="text" placeholder="Last Name" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-control">
+                      <label for="Email">Email</label>
+                      <input type="email" placeholder="Email" />
+                    </div>
+                    <div class="form-control">
+                      <label for="gender">Gender</label>
+                      <select name="gender" id="gender">
+                        <option value="">Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-control">
+                      <label for="dob">Date of Birth</label>
+                      <input type="date" />
+                    </div>
+                    <div class="form-control">
+                      <label for="phone_no">Phone Number</label>
+                      <input type="text" placeholder="Phone Number" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-control">
+                      <label for="country">Country of Residence</label>
+                      <input type="text" placeholder="Country of Residence" />
+                    </div>
+                    <div class="form-control">
+                      <label for="state">State of Residence</label>
+                      <input type="text" placeholder="State of Residence" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-control">
+                      <label for="pswd">Password</label>
+                      <input type="password" placeholder="Password" />
+                    </div>
+                    <div class="form-control">
+                      <label for="state">Confirm Password</label>
+                      <input type="password" placeholder="Confirm Password" />
+                    </div>
+                  </div>
+                  <label for="referral">How did you hear about us?</label>
+                  <input
+                    type="text"
+                    placeholder="Optional: Let us know how you found us"
+                  />
+                  <p>
+                    By clicking continue, I agree to
+                    <span><a href="">Terms of Use</a></span> and acknowledge that I
+                    have read the <span><a href="">Privacy Policy</a></span
+                    >.
+                  </p>
+                  <input type="submit" value="Signup" />
+                </form>
+              </div>
+            </div>
+          </section>
+          <section id="learn">
+            <div class="container_learn">
+              <img src="assets/images/altschoolimage.jpeg" alt="" />
+              <h2 style="font-size: 2.5rem; margin-top: 4rem">
+                Learn highly sought after <br />skills without hassle.
+              </h2>
+            </div>
+          </section>
+        </main>
+        <footer>
+          2025 &copy;
+          <address>1 Van Daniel's Street, Lekki</address>
+          <a class="to-top" href="#header">Back to Top</a>
+        </footer>
+        
+            
+      </main>
+</body>
+</html>
