@@ -1,0 +1,49 @@
+body {
+    font-family: "Liter", serif, "Albert Sans","M PLUS Rounded 1c","IBM Plex Sans";
+    background-color: rgba(80, 66, 173, 0.502);
+  }
+  h1 {
+    font-size: 50px;
+    margin-top: 2rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+  }
+  .student-id {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: 50;
+  }
+  .assign-links {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: 30;
+  }
+
+  
+  .custom-button {
+    background-color:rgba(80, 66, 173, 0.502); 
+    color: white; /* White text */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 30px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .custom-button:hover {
+    background-color: rgb (rgb(128, 0, 70), rgba(80, 66, 173, 0.502)); 
+  }
+  
+  .custom-button:active {
+    transform: scale(0.95); /* Slight shrink effect on click */
+  }
